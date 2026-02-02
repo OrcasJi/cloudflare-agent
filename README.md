@@ -33,5 +33,17 @@ Example request:
 npm install
 npx wrangler dev
 
+## Tech Stack
+- Cloudflare Workers (Edge Runtime)
+- Workers AI (Llama 3)
+- Durable Objects
+- HTML / CSS / JavaScript frontend
+
+## Features
+- Stateful conversation memory
+- Session-based chat
+- Typing indicator UI
+- Dark-mode interface
+
 ##Notes
 Workers AI requires remote preview or deployment and cannot run in local-only mode.
